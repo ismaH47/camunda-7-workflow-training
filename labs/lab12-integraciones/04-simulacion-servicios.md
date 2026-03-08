@@ -30,11 +30,7 @@ En este ejercicio se simulará ese worker mediante llamadas REST.
 
 # Arrancar la aplicación
 
-Ir al backend:
-
-```bash id="zw3ap2"
-cd backend
-```
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
 
 Arrancar el servidor:
 

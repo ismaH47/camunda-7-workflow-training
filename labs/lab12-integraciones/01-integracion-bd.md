@@ -173,11 +173,7 @@ public class ValidarSolicitudDelegate implements JavaDelegate {
 
 # Compilar el proyecto
 
-Ir al backend:
-
-```bash id="74bo1i"
-cd backend
-```
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
 
 Compilar:
 

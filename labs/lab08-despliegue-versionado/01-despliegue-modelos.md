@@ -56,11 +56,7 @@ approval-process.bpmn
 
 # Arrancar la aplicación
 
-Ir al backend:
-
-```bash
-cd backend
-```
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
 
 Ejecutar la aplicación:
 

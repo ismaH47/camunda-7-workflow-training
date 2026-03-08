@@ -128,3 +128,9 @@ El ejercicio se considera completado cuando:
 * se han identificado los elementos del proceso
 * se ha modificado el nombre de una actividad
 * el modelo BPMN se ha guardado correctamente.
+
+---
+
+## 📚 Referencia
+
+[Elementos BPMN – referencia rápida](../../docs/referencia/elementos-bpmn.md)

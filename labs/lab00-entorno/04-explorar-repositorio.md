@@ -66,13 +66,9 @@ Durante el curso iremos modificando este directorio.
 
 ### docs
 
-Directorio reservado para documentación adicional del curso.
+Documentación de referencia del curso: elementos BPMN, arquitectura de Camunda, expresiones EL, gateways, APIs Java, etc.
 
-Puede incluir:
-
-* diagramas
-* material de referencia
-* guías complementarias
+Ver el índice completo en [docs/README.md](../../docs/README.md).
 
 ---
 

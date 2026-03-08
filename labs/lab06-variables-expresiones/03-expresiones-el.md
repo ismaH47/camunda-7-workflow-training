@@ -155,3 +155,9 @@ El ejercicio se considera completado cuando:
 * el nombre de la tarea contiene una expresión EL
 * la tarea aparece en Tasklist con el nombre dinámico
 * la expresión utiliza correctamente la variable `solicitante`.
+
+---
+
+## 📚 Referencia
+
+[Expresiones EL en Camunda – referencia](../../docs/referencia/expresiones-el.md)

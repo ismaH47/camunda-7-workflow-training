@@ -165,3 +165,9 @@ El ejercicio se considera completado cuando:
 * se añade un **Exclusive Gateway**
 * el gateway tiene dos flujos de salida
 * cada flujo termina en un evento de fin.
+
+---
+
+## 📚 Referencia
+
+[Gateways BPMN – referencia](../../docs/referencia/gateways-bpmn.md)

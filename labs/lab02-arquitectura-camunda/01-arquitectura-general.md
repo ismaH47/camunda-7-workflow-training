@@ -136,3 +136,9 @@ El ejercicio se considera completado cuando:
 * aparece el mensaje de creación del **Process Engine**
 * el servidor web arranca en el puerto **8080**
 * se comprende qué componentes forman la arquitectura básica de Camunda.
+
+---
+
+## 📚 Referencia
+
+[Arquitectura de Camunda – referencia](../../docs/referencia/arquitectura-camunda.md)

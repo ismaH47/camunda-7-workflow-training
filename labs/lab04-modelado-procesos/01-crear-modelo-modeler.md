@@ -72,3 +72,9 @@ El ejercicio se considera completado cuando:
 * el proceso tiene el **Process Id `approval-process`**
 * el archivo se guarda en el directorio `model`
 * el archivo puede abrirse desde VS Code.
+
+---
+
+## 📚 Referencia
+
+[Elementos BPMN – referencia rápida](../../docs/referencia/elementos-bpmn.md)

@@ -168,3 +168,9 @@ El ejercicio se considera completado cuando:
 * se crea el componente `RuntimeExplorer`
 * se utiliza `RuntimeService`
 * la aplicación muestra en consola el número de instancias activas.
+
+---
+
+## 📚 Referencia
+
+[APIs Java de Camunda – referencia](../../docs/referencia/apis-java.md)

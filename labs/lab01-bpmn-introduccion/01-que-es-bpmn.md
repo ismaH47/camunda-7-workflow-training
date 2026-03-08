@@ -88,3 +88,9 @@ Un modelo BPMN describe **cómo fluye un proceso de negocio** desde que empieza 
 El motor de procesos utilizará este modelo para **ejecutar el workflow paso a paso**.
 
 En el siguiente paso crearemos **nuestro primer proceso BPMN**.
+
+---
+
+## 📚 Referencia
+
+[Elementos BPMN – referencia rápida](../../docs/referencia/elementos-bpmn.md)

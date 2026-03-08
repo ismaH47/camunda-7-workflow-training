@@ -110,3 +110,9 @@ El ejercicio se considera completado cuando:
 * la aplicación arranca correctamente
 * aparece el mensaje de creación del **Process Engine**
 * se identifican en los logs mensajes relacionados con el despliegue de procesos BPMN.
+
+---
+
+## 📚 Referencia
+
+[Arquitectura de Camunda – referencia](../../docs/referencia/arquitectura-camunda.md)

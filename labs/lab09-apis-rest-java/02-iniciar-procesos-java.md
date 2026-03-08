@@ -196,3 +196,9 @@ El ejercicio se considera completado cuando:
 * se crea el componente `ProcessStarter`
 * el proceso se inicia automáticamente al arrancar la aplicación
 * la instancia aparece en **Camunda Cockpit**.
+
+---
+
+## 📚 Referencia
+
+[APIs Java de Camunda – referencia](../../docs/referencia/apis-java.md)

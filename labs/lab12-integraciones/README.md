@@ -10,6 +10,7 @@ En este laboratorio se aprenderá a:
 * integrar servicios externos mediante código Java
 * utilizar el patrón **External Task**
 * simular servicios externos que interactúan con el motor
+* integrar con colas de mensajes (correlación, workers que consumen de cola)
 
 ---
 
@@ -136,6 +137,18 @@ Archivo:
 
 ```text id="h2v8c6"
 04-simulacion-servicios.md
+```
+
+---
+
+### 05 — Colas de mensajes
+
+Integrar el proceso con colas (patrones proceso↔cola, correlación de mensajes, worker que consume de cola).
+
+Archivo:
+
+```
+05-colas-mensajes.md
 ```
 
 ---

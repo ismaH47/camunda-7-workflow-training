@@ -10,6 +10,7 @@ En este laboratorio se aprenderá a:
 * crear grupos y asignar miembros
 * configurar permisos sobre procesos y tareas
 * entender cómo funciona el modelo de seguridad de Camunda
+* integrar SSO con un IdP externo (OAuth2/OIDC, SAML)
 
 ---
 
@@ -165,6 +166,18 @@ Archivo:
 
 ```text id="s4p8y1"
 04-configuracion-seguridad.md
+```
+
+---
+
+### 05 — SSO (Single Sign-On)
+
+Integrar Cockpit, Tasklist y Admin con un IdP externo (OAuth2/OIDC o SAML).
+
+Archivo:
+
+```
+05-sso.md
 ```
 
 ---

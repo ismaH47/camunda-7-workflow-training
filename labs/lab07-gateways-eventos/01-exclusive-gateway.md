@@ -28,25 +28,13 @@ aprobada
 
 # Abrir el modelo BPMN
 
-Abrir el archivo:
-
-```id="z9t8we"
-model/approval-process.bpmn
-```
-
-Editar el modelo utilizando **Camunda Modeler**.
+Abre **model/approval-process.bpmn** en **Camunda Modeler** (File → Open, carpeta model del repo).
 
 ---
 
 # Insertar un Exclusive Gateway
 
-Seleccionar el elemento:
-
-```id="f1b9rq"
-Exclusive Gateway
-```
-
-Arrastrarlo al diagrama después de la tarea:
+En la **paleta de la izquierda** busca **Exclusive Gateway** (rombo con una X). **Arrástralo** al diagrama y colócalo después de la tarea:
 
 ```id="r7u0ds"
 Aprobar solicitud
@@ -135,11 +123,7 @@ cp model/approval-process.bpmn backend/src/main/resources/processes/
 
 # Ejecutar la aplicación
 
-Ir al backend:
-
-```bash id="t1b0ze"
-cd backend
-```
+En la **terminal**, desde la raíz del repo: `cd backend`. Luego:
 
 Arrancar la aplicación:
 

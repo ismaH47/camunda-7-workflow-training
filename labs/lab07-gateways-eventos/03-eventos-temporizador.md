@@ -28,33 +28,19 @@ En este ejercicio añadiremos una **espera de 10 segundos** antes de ejecutar la
 
 # Abrir el modelo BPMN
 
-Abrir el archivo:
-
-```
-model/approval-process.bpmn
-```
-
-Editar el modelo con **Camunda Modeler**.
+Abre **model/approval-process.bpmn** en **Camunda Modeler** (File → Open, carpeta model del repo).
 
 ---
 
 # Insertar un Timer Event
 
-Seleccionar el elemento:
-
-```
-Intermediate Event
-```
-
-Insertarlo **entre el evento Inicio y la tarea Validar solicitud**.
+En la **paleta de la izquierda** busca **Intermediate Event** (círculo con doble borde). **Arrástralo** al diagrama **entre el evento Inicio y la tarea Validar solicitud** y conecta el flujo (Inicio → evento intermedio → Validar solicitud).
 
 ---
 
 # Convertir el evento en Timer Event
 
-Seleccionar el evento creado.
-
-Cambiar su tipo a:
+**Haz clic** en el evento que acabas de crear. En el **panel de propiedades a la derecha** (o en el tipo de evento) cámbialo a:
 
 ```
 Intermediate Timer Event
@@ -64,13 +50,7 @@ Intermediate Timer Event
 
 # Configurar el temporizador
 
-En el panel de propiedades buscar la sección:
-
-```
-Timer Definition
-```
-
-Seleccionar el tipo:
+En el **panel de propiedades a la derecha** busca la sección **Timer Definition** (o "Definición del temporizador"). Elige el tipo:
 
 ```
 Duration
@@ -136,11 +116,7 @@ cp model/approval-process.bpmn backend/src/main/resources/processes/
 
 # Ejecutar la aplicación
 
-Ir al backend:
-
-```bash
-cd backend
-```
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
 
 Arrancar la aplicación:
 

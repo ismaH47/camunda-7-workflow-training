@@ -27,11 +27,7 @@ En este ejercicio el proceso esperará un mensaje antes de continuar.
 
 # Abrir el modelo BPMN
 
-Abrir el archivo:
-
-```id="ztw54v"
-model/approval-process.bpmn
-```
+Abre **model/approval-process.bpmn** en **Camunda Modeler** (File → Open, carpeta model del repo).
 
 Editar el modelo utilizando **Camunda Modeler**.
 
@@ -53,9 +49,7 @@ Colocarlo en el flujo.
 
 # Convertir el evento en Message Event
 
-Seleccionar el evento creado.
-
-Cambiar su tipo a:
+**Haz clic** en el evento creado. En el **panel de propiedades a la derecha** (o en el tipo de evento) cámbialo a:
 
 ```
 Intermediate Message Catch Event
@@ -130,11 +124,7 @@ cp model/approval-process.bpmn backend/src/main/resources/processes/
 
 # Reiniciar la aplicación
 
-Ir al backend:
-
-```bash id="rx18ap"
-cd backend
-```
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
 
 Arrancar la aplicación:
 

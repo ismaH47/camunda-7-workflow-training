@@ -29,21 +29,13 @@ aprobada
 
 # Abrir el modelo BPMN
 
-Abrir el archivo:
-
-```id="kq3b0e"
-model/approval-process.bpmn
-```
-
-Editar el modelo utilizando **Camunda Modeler**.
+Abre **model/approval-process.bpmn** en **Camunda Modeler** (File → Open, carpeta model del repo).
 
 ---
 
 # Seleccionar el flujo "Aprobada"
 
-Seleccionar el **sequence flow** que sale del gateway hacia el final **aprobado**.
-
-En el panel de propiedades localizar:
+En el diagrama, **haz clic** en la **flecha (sequence flow)** que sale del gateway hacia la rama **aprobada**. En el **panel de propiedades a la derecha** localiza:
 
 ```id="f3w1az"
 Condition Expression
@@ -61,9 +53,7 @@ Esto indica que el flujo se seguirá cuando la variable `aprobada` sea verdadera
 
 # Seleccionar el flujo "Rechazada"
 
-Seleccionar el segundo flujo que sale del gateway.
-
-Configurar la condición:
+**Haz clic** en el segundo flujo que sale del gateway (la otra flecha). Configura la condición:
 
 ```id="z6s2pt"
 ${aprobada == false}
@@ -75,9 +65,7 @@ ${aprobada == false}
 
 Opcionalmente se puede marcar un flujo como **default flow**.
 
-Seleccionar el flujo **Rechazada**.
-
-Activar la opción:
+**Haz clic** en el flujo **Rechazada**. En el panel de propiedades activa la opción:
 
 ```id="1o9u8q"
 Default Flow
@@ -109,11 +97,7 @@ cp model/approval-process.bpmn backend/src/main/resources/processes/
 
 # Ejecutar la aplicación
 
-Ir al backend:
-
-```bash id="j2r7sh"
-cd backend
-```
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
 
 Ejecutar la aplicación:
 

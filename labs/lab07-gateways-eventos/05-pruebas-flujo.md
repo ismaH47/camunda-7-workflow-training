@@ -49,11 +49,7 @@ En este ejercicio se probará el comportamiento completo del flujo.
 
 # Arrancar la aplicación
 
-Ir al directorio del backend:
-
-```bash
-cd backend
-```
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
 
 Ejecutar la aplicación:
 

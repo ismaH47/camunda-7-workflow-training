@@ -27,6 +27,39 @@ Cockpit permite:
 
 **Referencia — Cómo diseñar el proceso y subirlo:** Para que Cockpit muestre procesos e instancias (y Tasklist muestre tareas humanas), hace falta un BPMN con al menos una User Task desplegado en la aplicación. Cómo diseñarlo en **Camunda Modeler** y copiarlo/desplegarlo en el proyecto se explica en el **Lab 04 — Modelado de procesos** (crear modelo, eventos, Service Task, User Task y despliegue en `05-despliegue-proceso.md`). **Para que este lab funcione**, el modelo que debes ejecutar es el **approval** entregado en el repositorio: copia `model/approval-process.bpmn` a `workflow-app/src/main/resources/processes/` y arranca la aplicación; así verás el proceso en Cockpit (y, al iniciar una instancia, tareas en Tasklist).
 
+**Delegate necesario para el proceso de ejemplo**
+
+El modelo `approval-process.bpmn` incluye una **Service Task** llamada `Validar solicitud` configurada con:
+
+```text
+${validarSolicitudDelegate}
+```
+
+Esto significa que el motor busca un **bean Spring** llamado `validarSolicitudDelegate`.  
+Si no existe, al ejecutar el proceso aparecerá un error indicando que no se encuentra el delegate.
+
+Crea la siguiente clase en tu proyecto (ajusta el paquete a tu caso real), por ejemplo en `workflow-app/src/main/java/com/example/workflow/delegate/ValidarSolicitudDelegate.java`:
+
+```java
+package com.example.workflow.delegate;
+
+import org.camunda.bpm.engine.delegate.DelegateExecution;
+import org.camunda.bpm.engine.delegate.JavaDelegate;
+import org.springframework.stereotype.Component;
+
+@Component("validarSolicitudDelegate")
+public class ValidarSolicitudDelegate implements JavaDelegate {
+
+    @Override
+    public void execute(DelegateExecution execution) {
+        System.out.println(">>> Validando solicitud de ejemplo");
+        execution.setVariable("solicitudValida", true);
+    }
+}
+```
+
+En el **Lab 05 — Service & User Tasks** verás con más detalle cómo estructurar estos delegates y la lógica de negocio, pero este ejemplo es suficiente para que el proceso `approval-process` funcione en este laboratorio.
+
 ---
 
 # Arrancar la aplicación
